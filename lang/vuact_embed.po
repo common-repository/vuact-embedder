@@ -1,0 +1,204 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: vuact\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-07 19:44-0500\n"
+"PO-Revision-Date: 2012-09-07 19:44-0500\n"
+"Last-Translator: Juan Sebastián Echeverry <sebaxtian@gawab.com>\n"
+"Language-Team: sebaxtian <sebaxtian@gawab.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: /var/www/wordpress/wp-content/plugins/vuact/\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: tinymce\n"
+
+#: vuact.php:58
+msgid "You are not allowed to be here"
+msgstr ""
+
+#: vuact.php:301
+msgid "vuact options"
+msgstr ""
+
+#: vuact.php:305
+msgid "Movie width"
+msgstr ""
+
+#: vuact.php:306
+msgid "Width in pixels"
+msgstr ""
+
+#: vuact.php:306
+msgid "Set value to 0 to use the max possible width and auto scale the height."
+msgstr ""
+
+#: vuact.php:306
+#: vuact.php:309
+#, php-format
+msgid "YouTube's default is %d"
+msgstr ""
+
+#: vuact.php:308
+msgid "Movie height"
+msgstr ""
+
+#: vuact.php:309
+msgid "Height in pixels (should ideally be 3/4 of the width plus 25 pixels)"
+msgstr ""
+
+#: vuact.php:309
+#, php-format
+msgid "Example: %d * 3/4 + 25 = %d (rounded to the nearest pixel)."
+msgstr ""
+
+#: vuact.php:311
+msgid "Video quality"
+msgstr ""
+
+#: vuact.php:317
+msgid "Attempt to show all videos in high quality."
+msgstr ""
+
+#: vuact.php:320
+msgid "Update Options &raquo;"
+msgstr ""
+
+#: vuact.php:323
+msgid "Using vuact"
+msgstr ""
+
+#: vuact.php:324
+msgid "To embed a video, follow these steps:<ul><li>Find the video on YouTube or Vimeo.</li><li>Extract the ID from the video page url.<br>These look something like:<ul><li>http://youtube.com/watch?v=<strong>Krhl2o_uwdc</strong></li><li>http://vimeo.com/<strong>10019015</strong></li> The bit in bold type is the ID.</li><li>Type <strong>[youtube]Krhl2o_uwdc[/youtube]</strong>  or <strong>[vimeo]10019015[/vimeo]</strong> anywhere in your post.</li><li>Save and publish the post.</li></ul>"
+msgstr ""
+
+#: vuact.php:331
+#, php-format
+msgid "You can also use the button %s in the Post/Page Editor. Just add the URL to the video."
+msgstr ""
+
+#: tinymce/mce_vuact.php:40
+msgid "Write here the URL to the video in YouTube or Vimeo."
+msgstr ""
+
+#: tinymce/mce_vuact.php:45
+msgid "URL"
+msgstr ""
+
+#: tinymce/mce_vuact.php:50
+msgid "These would look like to:"
+msgstr ""
+
+#: tinymce/mce_vuact.php:64
+#, fuzzy
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: tinymce/mce_vuact.php:68
+#, fuzzy
+msgid "Insert"
+msgstr "Insertar"
+
+#, fuzzy
+#~ msgid ""
+#~ "You have to install <a href=\"%s\" target=\"_BLANK\">minimax %1.1f</a> in "
+#~ "order for this plugin to work."
+#~ msgstr ""
+#~ "Deber&aacute; instalar <a href=\"%s\" target=\"_BLANK\">minimax 0.2</a> "
+#~ "para que este plugin funcione."
+
+#, fuzzy
+#~ msgid "Title"
+#~ msgstr "Título"
+
+#, fuzzy
+#~ msgid "Items"
+#~ msgstr "Items por página"
+
+#, fuzzy
+#~ msgid "Show feed title"
+#~ msgstr "T&iacute;tulo del prefacio:"
+
+#, fuzzy
+#~ msgid "Show contents"
+#~ msgstr "Mostrar Avatar"
+
+#, fuzzy
+#~ msgid "Show RSS icon"
+#~ msgstr "No existe el RSS"
+
+#, fuzzy
+#~ msgid "Show author"
+#~ msgstr "Autor: %1$s (IP: %2$s)"
+
+#, fuzzy
+#~ msgid "Show date"
+#~ msgstr "Mostrar Avatar"
+
+#, fuzzy
+#~ msgid "Feed added"
+#~ msgstr "Se agregó la galería"
+
+#, fuzzy
+#~ msgid "Feed modified"
+#~ msgstr "Comentario modificado"
+
+#, fuzzy
+#~ msgid "Feed deleted"
+#~ msgstr "Se eliminó el comentario"
+
+#, fuzzy
+#~ msgid "Add Feed"
+#~ msgstr "Agregar Galería"
+
+#, fuzzy
+#~ msgid "Edit Feed"
+#~ msgstr "Editar comentario"
+
+#, fuzzy
+#~ msgid "Name"
+#~ msgstr "T&iacute;­tulo del Cap&iacute;­tulo:"
+
+#, fuzzy
+#~ msgid "Add"
+#~ msgstr "Agregar"
+
+#, fuzzy
+#~ msgid "Modify"
+#~ msgstr "Modificar"
+
+#, fuzzy
+#~ msgid "No feeds found"
+#~ msgstr "No se encontraron comentarios"
+
+#, fuzzy
+#~ msgid "Bulk Actions"
+#~ msgstr "Acciones en bloque"
+
+#, fuzzy
+#~ msgid "Delete"
+#~ msgstr "Eliminar"
+
+#, fuzzy
+#~ msgid "Apply"
+#~ msgstr "Aplicar"
+
+#, fuzzy
+#~ msgid "Edit"
+#~ msgstr "Editar"
+
+#, fuzzy
+#~ msgid "Delete this Feed?"
+#~ msgstr "¿Eliminar este Comentario?"
+
+#, fuzzy
+#~ msgid "All feeds"
+#~ msgstr "Eliminar Spam"
